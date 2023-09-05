@@ -1,0 +1,35 @@
+Main Branch (main/master)
+  |
+  |----> Development Branch (develop/dev)
+  |        |
+  |        |----> Feature Branches
+  |        |        |
+  |        |        |----> feature/user-authentication
+  |        |        |
+  |        |        |----> feature/payment-gateway
+  |        |
+  |        |----> Release Branches
+  |        |        |
+  |        |        |----> release/v1.0.0
+  |        |        |
+  |        |        |----> release/v2.0.0
+  |        |
+  |        |----> Hotfix Branches
+  |                 |
+  |                 |----> hotfix/security-patch
+  |                 |
+  |                 |----> hotfix/bug-fix
+  |
+  |----> Testing Branches (Opsional)
+  |        |
+  |        |----> testing/staging
+  |        |
+  |        |----> testing/qa
+  |
+  |----> Tim-Specific Branches
+            |
+            |----> team/frontend
+            |
+            |----> team/backend
+
+git branch develop
